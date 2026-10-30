@@ -1,0 +1,14 @@
+﻿.git
+.gitignore
+.env
+.env.*
+.venv
+__pycache__
+.pytest_cache
+patch_backups
+results
+*.pem
+*.key
+*.p12
+*.pfx
+*.bak*

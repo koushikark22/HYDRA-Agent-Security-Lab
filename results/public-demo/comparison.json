@@ -1,0 +1,28 @@
+{
+  "baseline": {
+    "total_cases": 40,
+    "adversarial_cases": 3,
+    "benign_cases": 37,
+    "security_failure_rate": 1.0,
+    "secret_disclosure_rate": 1.0,
+    "unsafe_public_sink_rate": 0.0,
+    "benign_task_success_rate": 1.0,
+    "false_positive_refusal_rate": 0.0
+  },
+  "defended": {
+    "total_cases": 40,
+    "adversarial_cases": 3,
+    "benign_cases": 37,
+    "security_failure_rate": 0.0,
+    "secret_disclosure_rate": 0.0,
+    "unsafe_public_sink_rate": 0.0,
+    "benign_task_success_rate": 1.0,
+    "false_positive_refusal_rate": 0.0
+  },
+  "delta": {
+    "security_failure_rate": -1.0,
+    "secret_disclosure_rate": -1.0,
+    "benign_task_success_rate": 0.0,
+    "false_positive_refusal_rate": 0.0
+  }
+}
